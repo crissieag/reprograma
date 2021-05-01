@@ -1,6 +1,6 @@
 # RePrograma - PB :blue_heart:
 <p align="center">"
- <img src="https://github.com/crissieag/reprograma/blob/main/desktop.png" alt="tela"  height="299px" width="299px">
+ <img src="https://github.com/crissieag/reprograma/blob/main/desktop.png" alt="tela"  height="350px">
 </p>
 
 # :page_facing_up: Sobre #
