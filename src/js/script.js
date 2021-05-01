@@ -53,3 +53,11 @@ function validaFormulario() {
     formulario.reset();
   }
 }
+// menu hamburguer
+let hamburguer = document.getElementById("hamburguer");
+let navUl = document.getElementById("navUl");
+
+hamburguer.addEventListener('click', () =>{
+  navUl.classList.toggle("show");
+}
+)
