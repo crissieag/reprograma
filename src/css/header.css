@@ -52,25 +52,41 @@ nav li a:hover {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  background: rgba(64, 51, 129, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(39, 30, 83, 0.85);
+  
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 20px;
-  color: #4b3c97;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:focus{
-  color:#342968;
-  background-color: rgba(123, 101, 235, 0.25);
+  color:#d1cbf5;
+  background-color: rgba(204, 197, 238, 0.2);
+}
+
+@supports ((-webkit-backdrop-filter: blur(4px)) or (backdrop-filter: blur(4px))) {
+  .sidenav {
+    background: rgba(64, 51, 129, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .sidenav a {
+    color:#4b3c97;
+  }
+
+  .sidenav a:focus{
+    color:#342968;
+    background-color: rgba(123, 101, 235, 0.25);
+  }
 }
 
 @media screen and (max-width: 968px) {
