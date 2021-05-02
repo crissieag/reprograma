@@ -56,8 +56,13 @@ function validaFormulario() {
 // menu hamburguer
 let hamburguer = document.getElementById("hamburguer");
 let navUl = document.getElementById("navUl");
+let sideNav = document.getElementById("mySidenav");
 
 hamburguer.addEventListener('click', () =>{
-  navUl.classList.toggle("show");
+  // navUl.classList.toggle("show");
+  sideNav.style.width = "250px";
+}) 
+function closeNav() {
+  sideNav.style.width = "0";
 }
-)
+

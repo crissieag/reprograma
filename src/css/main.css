@@ -119,3 +119,36 @@ article {
     display: block;
   }
 }
+
+@media screen  and (max-width: 532px){
+  h1 {
+    font-size: 20px;
+    margin-top:35px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagem {
+    max-width: 300px;
+    width: 100%;
+    margin-top: auto;
+    margin: 0;
+    align-self: center;
+  }
+  .paragrafo {
+    font-size: 17px;
+    line-height: 23px;
+    width: 500px;
+    display: block;
+  }
+}
+
+
