@@ -101,3 +101,39 @@ h3 {
     align-items: center;
   }
 }
+
+@media screen  and (max-width: 532px){
+  form {
+    display: block;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  form legend {
+    font-size: 13px;
+    max-width:clamp(392px, 425px,532px);
+  }
+  form input {
+    width:clamp(50%, 70%, 75%);
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  form label{
+    align-items: center;
+  }
+
+  form label span {
+   padding-left: 26px;
+  }
+
+  form button {
+    width:clamp(50%, 70%, 75%);
+    align-items: center;
+  }
+  .formulario {
+    align-items: center;
+    max-width:clamp(392px, 425px,532px);
+    margin: 0;
+  }
+}
