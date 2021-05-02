@@ -1,10 +1,16 @@
-# Estrutura básica para projeto front-end
+# RePrograma - PB :blue_heart:
+<p align="center">"
+ <img src="https://github.com/crissieag/reprograma/blob/main/desktop.png" alt="tela"  height="350px">
+</p>
 
-Olá!
+# :page_facing_up: Sobre #
 
-Aqui você vai encontrar uma estrutura básica para montar o seu primeiro projeto de front-end e construir a sua primeira página usando HTML, CSS e Javascript.
+Projeto desenvolvido durante bootcamp ofertado pelo Paraná Banco, como parte do RePrograma, processo seletivo focado desenvolvimento técnico e inserção de mulheres no mercado de trabalho de tecnologia. A proposta era desenvolver layout apresentado durante o bootcamp, sendo desenvolvido além da página web, design responsivo.
 
-A proposta é desenvolver o layout desse link:
-https://www.figma.com/file/pzyVylrT5t6IYHbBaxU64o/RePrograma-Trilha-Front-end?node-id=0%3A394
+# :gear: Tecnologias #
 
-É só clonar esse repositório na sua máquina e usar essa estrutura para começar um novo projeto. :)
+Para o desenvolvimento do projeto foram utilizadas as seguintes tecnologias:
+
+* HTML 5
+* CSS
+* JS
